@@ -21,10 +21,3 @@ suites:
   - name: default
     run_list:
       - recipe[bcs_java::default]
-    attributes:
-      java:
-        jdk:
-          '7':
-            x86_64:
-              url: "http://10.0.0.33/www/jdk-7u55-linux-x64.tar.gz"
-

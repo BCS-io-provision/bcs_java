@@ -17,13 +17,13 @@ bcs_java is a wrapper cookbook. Normally, it would be included into other recipi
 
 | Attribute  | Description |
 | ------------- | ------------- |
-| `default['java']['jdk_version'] = '7'`  | Required Java Version  |
+| `default['java']['package'] = 'openjdk-7-jre-headless'`  | Required Java Version  |
 
 ## Recipes
 
 ### default
 
-Configure a node with OpenJDK Java 7.
+Configure a node with OpenJRE Java 7 headless.
 
 
 ## Verify
