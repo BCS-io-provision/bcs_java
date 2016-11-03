@@ -1,2 +1,2 @@
 
-default['java']['package'] = 'openjdk-7-jre-headless'
+default['java']['package'] = 'openjdk-8-jre-headless'
