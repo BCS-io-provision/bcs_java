@@ -5,6 +5,6 @@ gem 'chefspec', '~> 3.4.0'
 gem 'foodcritic', github: 'acrmp/foodcritic'
 
 group :integration do
-  gem 'test-kitchen', '~> 1.2.1'
-  gem 'kitchen-docker', '~> 1.2.1'
+  gem 'test-kitchen', '~> 1.12.0'
+  gem 'kitchen-docker', '~> 2.6.0'
 end
