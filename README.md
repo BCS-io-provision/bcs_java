@@ -6,7 +6,7 @@ Installs java version used at BCS. [Opscode community Java cookbook is maintaine
 
 * Chef 11.0
 * Ruby >= 2.1.0
-* Ubuntu 12.04
+* Ubuntu LTS >= 14.04
 
 ## Usage
 
@@ -27,6 +27,11 @@ Configure a node with OpenJRE Java 7 headless.
 
 
 ## Verify
+
+Automatically with Test Kitchen
+  - `bundle exec kitchen test`
+
+By hand
 
 | Software      | Command       |
 | ------------- | ------------- |
