@@ -1,0 +1,4 @@
+Metrics/LineLength:
+  Max: 95
+  Exclude:
+    - metadata.rb
