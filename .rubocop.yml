@@ -1,4 +1,6 @@
-Metrics/LineLength:
-  Max: 95
+Lint/RescueException:
   Exclude:
-    - metadata.rb
+    - 'Rakefile'
+
+Metrics/LineLength:
+  Enabled: false
