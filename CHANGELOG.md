@@ -1,11 +1,12 @@
 # Change Log
 
 ## [unreleased]
- - Gemfiles updated to latest
 
-## [3.0.5]
-### Changed
-  - 
+## [3.1.0] - 2016-12-23
+### Added
+ - Rakefile added
+
+## [3.0.5] - 2016-12-16
 ### Fixed
   - Test kitchen would not run on Mac OSX
 
