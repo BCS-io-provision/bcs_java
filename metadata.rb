@@ -1,5 +1,5 @@
 name             'bcs_java'
-maintainer       'Richard Wigley '
+maintainer       'BCS Ltd'
 maintainer_email 'richard.wigley@github.com'
 license          'MIT'
 description      'Installs/Configures bcs_java'
@@ -9,10 +9,8 @@ version          '3.2.0'
 source_url       'https://github.com/BCS-io-provision/bcs_java' if respond_to?(:source_url)
 issues_url       'https://github.com/BCS-io-provision/bcs_java/issues' if respond_to?(:issues_url)
 
-depends 'apt'
+chef_version     '>= 12.5' if respond_to?(:chef_version)
 
-%w[ubuntu].each do |os|
-  supports os
-end
+supports         'ubuntu'
 
-chef_version '>= 12.5' if respond_to?(:chef_version)
+depends          'apt'
