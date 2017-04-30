@@ -4,13 +4,15 @@ Installs java version used at BCS. [Opscode community Java cookbook is maintaine
 
 ## Requirements
 
-* Chef 11.0
-* Ruby >= 2.1.0
-* Ubuntu LTS >= 14.04
+| Requirement | Tested Version                                                  |
+| ----------- | ----------------------------------------------------------------|
+| Chef        | 12.5+                                                           |
+| Ruby        | 2.3.3+                                                          |
+| Ubuntu      | 14.04+                                                          |
 
 ## Usage
 
-bcs_java is a wrapper cookbook. Normally, it would be included into other recipies, or added to the run_list, to give java support.
+bcs_java is a wrapper cookbook. Normally, it would be included into other recipes, or added to the run_list, to give java support.
 
 
 ## Attributes
