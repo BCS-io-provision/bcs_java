@@ -11,6 +11,7 @@ driver_config:
 
 provisioner:
   name: chef_zero
+  deprecations_as_errors: true
 
 platforms:
   - name: ubuntu-14.04
