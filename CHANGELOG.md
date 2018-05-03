@@ -1,6 +1,12 @@
 # Change Log
 
-## [unreleased]
+## [3.3.0] - 2018-05-03
+### Added
+  - serverspec test for java version
+
+### Changed
+  - Docker => Vagrant
+  - Maintainer to BCS Ltd
 
 ## [3.2.0] - 2017-04-30
 ### Changed
