@@ -1,6 +1,6 @@
 # Change Log
 
-## Master
+## [3.4.0] - 2018-05-08
 ### Added
   - Support for Ubuntu 18.04
 
