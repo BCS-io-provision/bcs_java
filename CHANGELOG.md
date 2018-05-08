@@ -1,5 +1,9 @@
 # Change Log
 
+## Master
+### Added
+  - Support for Ubuntu 18.04
+
 ## [3.3.0] - 2018-05-03
 ### Added
   - serverspec test for java version

@@ -9,6 +9,8 @@ describe 'bcs_java::default' do
       its(:stderr) { should match(/1\.7/) }
     elsif os[:release] == '16.04'
       its(:stderr) { should match(/1\.8/) }
+    elsif os[:release] == '18.04'
+      its(:stderr) { should match(/1\.8/) }
     else
       raise "Unknown OS version being tested"
     end
